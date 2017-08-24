@@ -20,8 +20,7 @@ public class RNZendeskChatPackage implements ReactPackage {
         modules.add(new RNZendeskChatModule(reactContext));
         return modules;
     }
-
-    @Override
+    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
